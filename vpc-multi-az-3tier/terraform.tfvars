@@ -1,0 +1,11 @@
+
+aws_region = "ap-southeast-1"
+vpc_cidr_block = "10.100.0.0/16"
+public-subnet-za-1 = "10.100.0.0/24"
+api-subnet-za-2 = "10.100.1.0/24"
+private-subnet-za-3 ="10.100.2.0/24"
+public-subnet-zb-4 = "10.100.3.0/24"
+api-subnet-zb-5 = "10.100.4.0/24"
+private-subnet-zb-6 = "10.100.5.0/24"
+az1 = "ap-southeast-1a"
+az2 = "ap-southeast-1b"
