@@ -26,3 +26,4 @@ override.tf.json
 # Local backend configuration
 terraform.tfstate.backup
 .terraformrc
+terraform.tfstate

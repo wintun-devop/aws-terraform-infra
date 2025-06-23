@@ -15,6 +15,15 @@ https://registry.terraform.io/browse/providers
 ```
 
 ### Terraform Provisioning
+-  init the terraform
 ```
-
+terraform init
+```
+- Terraform Provider Resources Initialization
+```
+terraform plan
+```
+- Terraform Provider Resources Provisioning
+```
+terraform apply
 ```
