@@ -19,7 +19,7 @@ https://registry.terraform.io/browse/providers
 ```
 terraform init
 ```
-- Terraform Provider Resources Initialization
+- Terraform Provider Resources Initialization (does not change the deployment (read-only))
 ```
 terraform plan
 ```
