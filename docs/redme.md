@@ -15,7 +15,7 @@ https://registry.terraform.io/browse/providers
 ```
 
 ### Terraform Provisioning
--  init the terraform
+-  Init the terraform (Initializes the (local) terraform environment. Usually executed only once per session.)
 ```
 terraform init
 ```
@@ -26,4 +26,8 @@ terraform plan
 - Terraform Provider Resources Provisioning
 ```
 terraform apply
+```
+- Deleting terraform resources
+```
+terraform destroy
 ```
