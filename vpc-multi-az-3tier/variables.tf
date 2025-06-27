@@ -32,21 +32,41 @@ variable "public-subnet-zb-4" {
 }
 
 variable "api-subnet-zb-5" {
-  description = "api subnet deploy on az a.the subnet attached on nat gateway"
+  description = "api subnet deploy on az b.the subnet attached on nat gateway"
   type        = string
 }
 
 variable "private-subnet-zb-6" {
-  description = "private subnet deploy on az a.dnz for database"
+  description = "private subnet deploy on az b.dnz for database"
+  type        = string
+}
+
+variable "public-subnet-zc-7" {
+  description = "public subnet deploy on az c."
+  type        = string
+}
+
+variable "api-subnet-zc-8" {
+  description = "api subnet deploy on az b.the subnet attached on nat gateway."
+  type        = string
+}
+
+variable "private-subnet-zc-9" {
+  description = "private subnet deploy on az b.dnz for database"
   type        = string
 }
 
 variable "az1" {
-  description = ""
+  description = "availability zone a."
   type        = string
 }
 
 variable "az2" {
-  description = ""
+  description = "availability zone b."
+  type        = string
+}
+
+variable "az3" {
+  description = "availability zone b."
   type        = string
 }
